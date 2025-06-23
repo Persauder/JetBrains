@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import bannerBg from '../assets/ai-banner-back-md.png';
 
 const Header: React.FC = () => {
     return (
-        <header className="bg-black text-white p-4">
+        <header className="bg-gray-700 text-white p-4">
             <div className="flex justify-between items-center">
                 {/* Logo */}
                 <Link to="/" className="flex items-center space-x-2">
