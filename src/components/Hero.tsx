@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
 
                 <p className="text-lg md:text-3xl font-medium text-gray-300">
                     Pro tools created with{' '}
-                    <span className="text-indigo-400 underline underline-offset-4">
+                    <span className="text-indigo-400 underline underline-offset-8">
             {'{developers}'}
           </span>,<br />
 
